@@ -1,0 +1,15 @@
+{
+  "name": "metalsmith-unused-images",
+  "version": "0.0.1",
+  "description": "Finds unused image files and optionally removes them from the source folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bbor",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.6",
+    "cheerio": "^0.22.0"
+  }
+}
