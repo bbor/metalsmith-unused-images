@@ -34,7 +34,7 @@ Metalsmith(__dirname)
 
 ```js
 {
-  logfile:"unused_images.log",     // Customize the log filename, relative to destination. Use nil to skip.
+  logfile:"unused_images.log",     // Customize the log filename, relative to destination. Use false to skip.
   console:false,                   // Use true to write unused images to console.log as well as the debug stream.
   remove:false,                    // Use true to have the plugin remove unused files from your source folder.
   extensions:["gif","jpg","jpeg","png"]
